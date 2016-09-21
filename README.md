@@ -10,10 +10,12 @@ Upstream PHP-FPM: **php:9000** (install apart, see https://github.com/Gurukami/d
 **Don't forget update "hosts" file to resolve sandbox.local**
 
 Windows: Windows\System32\drivers\etc\hosts
+
 Linux: /etc/hosts
 
 ...
 127.0.0.1 sandbox.local
+
 127.0.0.1 php
 ...
 
