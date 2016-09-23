@@ -1,5 +1,7 @@
 # About this repo
 
+[![Docker Stars](https://img.shields.io/docker/stars/gurukami/nginx.svg?style=flat)](https://hub.docker.com/r/gurukami/nginx/) [![Docker Pulls](https://img.shields.io/docker/pulls/gurukami/nginx.svg?style=flat)](https://hub.docker.com/r/gurukami/nginx/)
+
 This is a Dockerfile instructions to build a container image with **Nginx** based on **nginx:1** docker image
 
 ## Configuration
@@ -31,8 +33,8 @@ FROM gurukami/nginx:latest
 ```
 docker run --name gurukami_nginx -d -p 80:80 -p 443:443 -v {host-src}:/share gurukami/nginx:latest
 ```
+  
 Then you can hit http://sandbox.local (HTTP) or https://sandbox.local (HTTPS, SSL) in your browser.
-
 For more information about run command, see https://docs.docker.com/engine/reference/run/
 
 ## License
